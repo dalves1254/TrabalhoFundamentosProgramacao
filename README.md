@@ -1,6 +1,7 @@
 # Trabalho de Fundamentos da Programação
-P3 de Informática
-Professor: César Olavo
+<b>P3 de Informática (2022.2) - IFCE Campus Fortaleza</b><br/>
+<b>Aluno:</b> Davi Alves Macêdo<br/>
+<b>Professor:</b> César Olavo
 
 Atividade da disciplina de Fundamentos da Programação para realizar as seguintes modificações no código disponível em: https://github.com/chrisdixon161/fun-javascript-projects.com
 
