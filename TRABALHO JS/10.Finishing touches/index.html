@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="player">
+      <img src="nota_e_cd.svg" class="nota_e_cd" id="nota_e_cd" size="90%"/>
+     <div style="font-size: 80%;">Ícone baixado de <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> e licenciado como CC BY 3.0</div>
+
+      <audio id="player" ontimeupdate="updateProgress()">
+        <source id="source" />
+        Áudio não suportado
+      </audio>
+
+      <progress id="progress" value="0" max="100"></progress>
+      <div id="controls">
+        <p id="currentSong"></p>
+        <div class="controls_wrapper">
+          <span onclick="playAudio()">&#9658;</span>
+          <span onclick="pauseAudio()">&#10074;&#10074;</span>
+        </div>
+        <p>Volume:</p>
+        <div class="volume">
+          <span>- </span>
+          <input type="range" id="volumeSlider" min="0" max="1" step="0.01" />
+          <span> +</span>
+        </div>
+      </div>
+
+      <h2>Minhas músicas:</h2>
+      <div id="songList"></div>
+      <p>
+        Baixadas de: <a href="https://www.youtube.com">https://www.youtube.com</a>
+      </p>
+      <div style="font-size: 80%;">
+        Este projeto é uma modificação personalizada para fins didáticos do <a href="https://github.com/chrisdixon161/fun-javascript-projects.com">código de chrisdixon161</a><br/>Todos os direitos reservados
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
