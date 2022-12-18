@@ -1,6 +1,8 @@
 # Trabalho de Fundamentos da Programação
+P3 de Informática
+Professor: César Olavo
 
-Atividade da disciplina de Fundamentos da Programação de fazer as seguintes modificações no código disponível em: https://github.com/chrisdixon161/fun-javascript-projects.com
+Atividade da disciplina de Fundamentos da Programação para realizar as seguintes modificações no código disponível em: https://github.com/chrisdixon161/fun-javascript-projects.com
 
 1. Substituir a imagem do fone de ouvido por uma outra de seu gosto.
 
